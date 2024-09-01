@@ -92,6 +92,9 @@ function App() {
                     <em className="text-[12px]">
                       ({new Date(msg.timestamp).toLocaleString()})
                     </em>
+                    <div className="text-gray-500 text-[12px]">
+                      Visitor ID: {msg.visitorId} {/* Display the visitorId */}
+                    </div>
                   </div>
                 ))}
               </div>
